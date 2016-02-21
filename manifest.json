@@ -1,0 +1,10 @@
+{
+  "name": "Smart UA Switcher",
+  "version": "1.0",
+  "permissions": ["webRequest", "webRequestBlocking", "storage", "http://*/*"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
