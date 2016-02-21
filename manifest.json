@@ -1,7 +1,7 @@
 {
   "name": "Smart UA Switcher",
   "version": "1.0",
-  "permissions": ["webRequest", "webRequestBlocking", "storage", "http://*/*"],
+  "permissions": ["webRequest", "webRequestBlocking", "storage", "http://*/*", "https://*/*"],
   "background": {
     "scripts": ["background.js"]
   },
